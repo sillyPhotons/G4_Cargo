@@ -1,0 +1,23 @@
+/run/numberOfThreads 4
+/run/initialize
+/Cargo/gun/chooseGun 2
+#/Cargo/Gamma_Neutron/chooseMat 1
+
+/run/initialize
+/control/verbose 0
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 0
+
+/score/create/boxMesh gammaMesh
+/score/mesh/boxSize 500. 150 5. cm
+/score/mesh/nBin 250 75 1
+/score/mesh/translate/xyz 0. 0. -160. cm
+/score/quantity/energyDeposit edep eV
+/score/close
+
+/run/printProgress 100
+/run/beamOn 500000
+
+/score/dumpQuantityToFile gammaMesh edep gammaMeshEdepNeutron.csv
+
