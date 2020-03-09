@@ -1,4 +1,4 @@
-# Install script for directory: /home/jad/Geant4/examples/basic/Cargo
+# Install script for directory: /home/jad/Geant4/examples/basic/G4_Cargo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CargoImaging"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jad/Geant4/examples/basic/Cargo/build/CargoImaging")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/jad/Geant4/examples/basic/G4_Cargo/build/CargoImaging")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CargoImaging" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CargoImaging")
     file(RPATH_CHANGE
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jad/Geant4/examples/basic/Cargo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jad/Geant4/examples/basic/G4_Cargo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

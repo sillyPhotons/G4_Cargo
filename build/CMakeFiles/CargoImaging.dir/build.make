@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jad/Geant4/examples/basic/Cargo
+CMAKE_SOURCE_DIR = /home/jad/Geant4/examples/basic/G4_Cargo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jad/Geant4/examples/basic/Cargo/build
+CMAKE_BINARY_DIR = /home/jad/Geant4/examples/basic/G4_Cargo/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CargoImaging.dir/depend.make
@@ -59,107 +59,107 @@ include CMakeFiles/CargoImaging.dir/flags.make
 
 CMakeFiles/CargoImaging.dir/CargoImaging.cc.o: CMakeFiles/CargoImaging.dir/flags.make
 CMakeFiles/CargoImaging.dir/CargoImaging.cc.o: ../CargoImaging.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CargoImaging.dir/CargoImaging.cc.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/CargoImaging.cc.o -c /home/jad/Geant4/examples/basic/Cargo/CargoImaging.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CargoImaging.dir/CargoImaging.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/CargoImaging.cc.o -c /home/jad/Geant4/examples/basic/G4_Cargo/CargoImaging.cc
 
 CMakeFiles/CargoImaging.dir/CargoImaging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CargoImaging.dir/CargoImaging.cc.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/Cargo/CargoImaging.cc > CMakeFiles/CargoImaging.dir/CargoImaging.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/G4_Cargo/CargoImaging.cc > CMakeFiles/CargoImaging.dir/CargoImaging.cc.i
 
 CMakeFiles/CargoImaging.dir/CargoImaging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CargoImaging.dir/CargoImaging.cc.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/Cargo/CargoImaging.cc -o CMakeFiles/CargoImaging.dir/CargoImaging.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/G4_Cargo/CargoImaging.cc -o CMakeFiles/CargoImaging.dir/CargoImaging.cc.s
 
 CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.o: CMakeFiles/CargoImaging.dir/flags.make
 CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.o: ../src/CargoActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.o -c /home/jad/Geant4/examples/basic/Cargo/src/CargoActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.o -c /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoActionInitialization.cc
 
 CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/Cargo/src/CargoActionInitialization.cc > CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoActionInitialization.cc > CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.i
 
 CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/Cargo/src/CargoActionInitialization.cc -o CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoActionInitialization.cc -o CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.s
 
 CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.o: CMakeFiles/CargoImaging.dir/flags.make
 CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.o: ../src/CargoDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.o -c /home/jad/Geant4/examples/basic/Cargo/src/CargoDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.o -c /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoDetectorConstruction.cc
 
 CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/Cargo/src/CargoDetectorConstruction.cc > CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoDetectorConstruction.cc > CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.i
 
 CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/Cargo/src/CargoDetectorConstruction.cc -o CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoDetectorConstruction.cc -o CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.s
 
 CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.o: CMakeFiles/CargoImaging.dir/flags.make
 CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.o: ../src/CargoEventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.o -c /home/jad/Geant4/examples/basic/Cargo/src/CargoEventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.o -c /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoEventAction.cc
 
 CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/Cargo/src/CargoEventAction.cc > CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoEventAction.cc > CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.i
 
 CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/Cargo/src/CargoEventAction.cc -o CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoEventAction.cc -o CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.s
 
 CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.o: CMakeFiles/CargoImaging.dir/flags.make
 CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.o: ../src/CargoPrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.o -c /home/jad/Geant4/examples/basic/Cargo/src/CargoPrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.o -c /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoPrimaryGeneratorAction.cc
 
 CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/Cargo/src/CargoPrimaryGeneratorAction.cc > CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoPrimaryGeneratorAction.cc > CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.i
 
 CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/Cargo/src/CargoPrimaryGeneratorAction.cc -o CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoPrimaryGeneratorAction.cc -o CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.s
 
 CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.o: CMakeFiles/CargoImaging.dir/flags.make
 CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.o: ../src/CargoRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.o -c /home/jad/Geant4/examples/basic/Cargo/src/CargoRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.o -c /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoRunAction.cc
 
 CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/Cargo/src/CargoRunAction.cc > CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoRunAction.cc > CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.i
 
 CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/Cargo/src/CargoRunAction.cc -o CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoRunAction.cc -o CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.s
 
 CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.o: CMakeFiles/CargoImaging.dir/flags.make
 CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.o: ../src/MuonDetectorHit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.o -c /home/jad/Geant4/examples/basic/Cargo/src/MuonDetectorHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.o -c /home/jad/Geant4/examples/basic/G4_Cargo/src/MuonDetectorHit.cc
 
 CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/Cargo/src/MuonDetectorHit.cc > CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/G4_Cargo/src/MuonDetectorHit.cc > CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.i
 
 CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/Cargo/src/MuonDetectorHit.cc -o CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/G4_Cargo/src/MuonDetectorHit.cc -o CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.s
 
 CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.o: CMakeFiles/CargoImaging.dir/flags.make
 CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.o: ../src/MuonDetectorSD.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.o -c /home/jad/Geant4/examples/basic/Cargo/src/MuonDetectorSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.o -c /home/jad/Geant4/examples/basic/G4_Cargo/src/MuonDetectorSD.cc
 
 CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/Cargo/src/MuonDetectorSD.cc > CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.i
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jad/Geant4/examples/basic/G4_Cargo/src/MuonDetectorSD.cc > CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.i
 
 CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/Cargo/src/MuonDetectorSD.cc -o CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.s
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jad/Geant4/examples/basic/G4_Cargo/src/MuonDetectorSD.cc -o CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.s
 
 # Object files for target CargoImaging
 CargoImaging_OBJECTS = \
@@ -229,7 +229,7 @@ CargoImaging: /opt/geant4/BuildProducts/lib/libG4intercoms.so
 CargoImaging: /opt/geant4/BuildProducts/lib/libG4global.so
 CargoImaging: /opt/geant4/BuildProducts/lib/libG4clhep.so
 CargoImaging: CMakeFiles/CargoImaging.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CargoImaging"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CargoImaging"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CargoImaging.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -242,6 +242,6 @@ CMakeFiles/CargoImaging.dir/clean:
 .PHONY : CMakeFiles/CargoImaging.dir/clean
 
 CMakeFiles/CargoImaging.dir/depend:
-	cd /home/jad/Geant4/examples/basic/Cargo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jad/Geant4/examples/basic/Cargo /home/jad/Geant4/examples/basic/Cargo /home/jad/Geant4/examples/basic/Cargo/build /home/jad/Geant4/examples/basic/Cargo/build /home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles/CargoImaging.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jad/Geant4/examples/basic/G4_Cargo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jad/Geant4/examples/basic/G4_Cargo /home/jad/Geant4/examples/basic/G4_Cargo /home/jad/Geant4/examples/basic/G4_Cargo/build /home/jad/Geant4/examples/basic/G4_Cargo/build /home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/CargoImaging.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CargoImaging.dir/depend
 

@@ -531,7 +531,7 @@ CMakeFiles/CargoImaging.dir/CargoImaging.cc.o
  /home/jad/Downloads/geant4.10.04.p02/source/visualization/modeling/include/G4VModel.icc
  /home/jad/Downloads/geant4.10.04.p02/source/visualization/modeling/include/G4VModelFactory.hh
  /home/jad/Downloads/geant4.10.04.p02/source/visualization/modeling/include/G4VTrajectoryModel.hh
- /home/jad/Geant4/examples/basic/Cargo/CargoImaging.cc
+ /home/jad/Geant4/examples/basic/G4_Cargo/CargoImaging.cc
 CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.o
  ../include/CargoActionInitialization.hh
  ../include/CargoEventAction.hh
@@ -578,7 +578,7 @@ CMakeFiles/CargoImaging.dir/src/CargoActionInitialization.cc.o
  /home/jad/Downloads/geant4.10.04.p02/source/run/include/G4UserRunAction.hh
  /home/jad/Downloads/geant4.10.04.p02/source/run/include/G4VUserActionInitialization.hh
  /home/jad/Downloads/geant4.10.04.p02/source/run/include/G4VUserPrimaryGeneratorAction.hh
- /home/jad/Geant4/examples/basic/Cargo/src/CargoActionInitialization.cc
+ /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoActionInitialization.cc
 CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.o
  ../include/CargoDetectorConstruction.hh
  ../include/MuonDetectorHit.hh
@@ -897,7 +897,7 @@ CMakeFiles/CargoImaging.dir/src/CargoDetectorConstruction.cc.o
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4UserTrackingAction.hh
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4VSteppingVerbose.hh
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4VTrajectory.hh
- /home/jad/Geant4/examples/basic/Cargo/src/CargoDetectorConstruction.cc
+ /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoDetectorConstruction.cc
 CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.o
  ../include/CargoAnalysis.hh
  ../include/CargoEventAction.hh
@@ -1318,7 +1318,7 @@ CMakeFiles/CargoImaging.dir/src/CargoEventAction.cc.o
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4UserTrackingAction.hh
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4VSteppingVerbose.hh
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4VTrajectory.hh
- /home/jad/Geant4/examples/basic/Cargo/src/CargoEventAction.cc
+ /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoEventAction.cc
 CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.o
  ../include/CargoPrimaryGeneratorAction.hh
  /home/jad/Downloads/geant4.10.04.p02/source/digits_hits/digits/include/G4DCofThisEvent.hh
@@ -1606,7 +1606,7 @@ CMakeFiles/CargoImaging.dir/src/CargoPrimaryGeneratorAction.cc.o
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4UserTrackingAction.hh
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4VSteppingVerbose.hh
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4VTrajectory.hh
- /home/jad/Geant4/examples/basic/Cargo/src/CargoPrimaryGeneratorAction.cc
+ /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoPrimaryGeneratorAction.cc
 CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.o
  ../include/CargoAnalysis.hh
  ../include/CargoRunAction.hh
@@ -2016,7 +2016,7 @@ CMakeFiles/CargoImaging.dir/src/CargoRunAction.cc.o
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4UserTrackingAction.hh
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4VSteppingVerbose.hh
  /home/jad/Downloads/geant4.10.04.p02/source/tracking/include/G4VTrajectory.hh
- /home/jad/Geant4/examples/basic/Cargo/src/CargoRunAction.cc
+ /home/jad/Geant4/examples/basic/G4_Cargo/src/CargoRunAction.cc
 CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.o
  ../include/MuonDetectorHit.hh
  /home/jad/Downloads/geant4.10.04.p02/source/digits_hits/hits/include/G4THitsCollection.hh
@@ -2094,7 +2094,7 @@ CMakeFiles/CargoImaging.dir/src/MuonDetectorHit.cc.o
  /home/jad/Downloads/geant4.10.04.p02/source/intercoms/include/G4UIcommand.hh
  /home/jad/Downloads/geant4.10.04.p02/source/intercoms/include/G4UIparameter.hh
  /home/jad/Downloads/geant4.10.04.p02/source/intercoms/include/G4UItokenNum.hh
- /home/jad/Geant4/examples/basic/Cargo/src/MuonDetectorHit.cc
+ /home/jad/Geant4/examples/basic/G4_Cargo/src/MuonDetectorHit.cc
 CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.o
  ../include/MuonDetectorHit.hh
  ../include/MuonDetectorSD.hh
@@ -2221,4 +2221,4 @@ CMakeFiles/CargoImaging.dir/src/MuonDetectorSD.cc.o
  /home/jad/Downloads/geant4.10.04.p02/source/track/include/G4TrackVector.hh
  /home/jad/Downloads/geant4.10.04.p02/source/track/include/G4VUserTrackInformation.hh
  /home/jad/Downloads/geant4.10.04.p02/source/track/include/trkdefs.hh
- /home/jad/Geant4/examples/basic/Cargo/src/MuonDetectorSD.cc
+ /home/jad/Geant4/examples/basic/G4_Cargo/src/MuonDetectorSD.cc

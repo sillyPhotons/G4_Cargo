@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jad/Geant4/examples/basic/Cargo
+CMAKE_SOURCE_DIR = /home/jad/Geant4/examples/basic/G4_Cargo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jad/Geant4/examples/basic/Cargo/build
+CMAKE_BINARY_DIR = /home/jad/Geant4/examples/basic/G4_Cargo/build
 
 # Utility rule file for Cargo.
 
@@ -71,6 +71,6 @@ CMakeFiles/Cargo.dir/clean:
 .PHONY : CMakeFiles/Cargo.dir/clean
 
 CMakeFiles/Cargo.dir/depend:
-	cd /home/jad/Geant4/examples/basic/Cargo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jad/Geant4/examples/basic/Cargo /home/jad/Geant4/examples/basic/Cargo /home/jad/Geant4/examples/basic/Cargo/build /home/jad/Geant4/examples/basic/Cargo/build /home/jad/Geant4/examples/basic/Cargo/build/CMakeFiles/Cargo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jad/Geant4/examples/basic/G4_Cargo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jad/Geant4/examples/basic/G4_Cargo /home/jad/Geant4/examples/basic/G4_Cargo /home/jad/Geant4/examples/basic/G4_Cargo/build /home/jad/Geant4/examples/basic/G4_Cargo/build /home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/Cargo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Cargo.dir/depend
 
