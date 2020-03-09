@@ -1,8 +1,0 @@
-/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/install/strip.dir
-/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/install/local.dir
-/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/Cargo.dir
-/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/install.dir
-/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/CargoImaging.dir
-/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/edit_cache.dir
-/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/rebuild_cache.dir
-/home/jad/Geant4/examples/basic/G4_Cargo/build/CMakeFiles/list_install_components.dir

@@ -1,4 +1,0 @@
-/run/beamOn 100
-
-/score/dumpQuantityToFile gammaMesh edep gammaMeshEdep.csv
-
