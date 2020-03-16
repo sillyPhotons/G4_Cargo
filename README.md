@@ -16,7 +16,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/sillyPhotons/G4_Cargo">
-    <img src="images/logo.png" alt="Logo">
+    <img src="images/logo.png" alt="Logo" width = 500>
   </a>
 
   <h3 align="center">Geant4 Cargo Scanning Monte-Carlo Simulation</h3>
