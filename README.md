@@ -33,7 +33,6 @@ An aluminum cargo container with various objects inside is exposed mega-voltage 
 ## Table of Contents
 
 * [Project Report](#about-the-project)
-* [License](#license)
 * [Contact](#contact)
 
 
