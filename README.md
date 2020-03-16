@@ -43,11 +43,6 @@ A brief project report was written which provide a description of the parts of t
 
 The report can be found:
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 <!-- CONTACT -->
 ## Contact
 
