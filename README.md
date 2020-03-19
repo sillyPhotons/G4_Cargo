@@ -20,7 +20,7 @@ An aluminum cargo container containing objects of varying density and atomic num
 ## Implementations
 
 In addition to the required concrete classes, I implement
-  * Command based scoring meshes for energy deposition
+  * Command based scoring meshes to score energy deposition
   * Sensitive detector class to score particle interaction position
   * Hits class to store relevant hit information
   * RunAction class for booking histograms 
