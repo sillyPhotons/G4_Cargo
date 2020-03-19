@@ -7,10 +7,17 @@
 
   <h3 align="center">Geant4 Cargo Scanning Monte-Carlo Simulation</h3>
 
-  <p align="center">
-An aluminum cargo container with various objects inside is exposed mega-voltage gammas, neutrons, and muons.
+An aluminum cargo container containing objects of varying density and atomic number is exposed to mega-voltage gammas, neutrons, and muons, and the interaction of these particles with matter is analyzed qualitatively. 
+
+In addition to the required concrete classes, I implement
+  * Command based scoring meshes for energy deposition
+  * Sensitive detector class to score particle interaction position
+  * Hits class to store relevant hit information
+  * RunAction class for booking histograms 
+  * EventAction class for filling histograms
+  
+Simulation results are visualized using `ROOT @ cern` and the `Python` language.
     <br />
-     </p>
 </p>
 
 
@@ -22,13 +29,13 @@ An aluminum cargo container with various objects inside is exposed mega-voltage 
 * [Contact](#contact)
 
 
-<!-- ABOUT THE PROJECT -->
+
 ## Project Report
 A brief project report was written which provide a description of the parts of this simulation, the primary references used, and also some acknowledgements.
 
 The report, along with the latex source code used to compile the report in OverLeaf can be found the `Report` folder in the repository.
 
-<!-- CONTACT -->
+
 ## Contact
 
 Ruiheng Su - ruihengsu@alumni.ubc.ca
